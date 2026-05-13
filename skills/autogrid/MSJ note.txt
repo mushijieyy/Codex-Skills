@@ -1,0 +1,10 @@
+Autogrid skill 需要输入三项：
+
+geomTurbo 文件地址：CFturbo 导出的几何文件。
+输出 .igg 网格文件地址：决定生成文件保存到哪里、叫什么名字。
+.trb 模板地址：AutoGrid 的网格划分模板。
+功能：
+
+根据这三项自动生成并运行 PowerShell 命令，调用 AutoGrid5 批处理完成网格划分，并输出完整工程文件，包括 .trb、.igg、.cgns、.bcs、.config、质量报告和日志。
+
+如果需要，也可以先复制 .trb 模板并修改指定网格参数，再执行划分。

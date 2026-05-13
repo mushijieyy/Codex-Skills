@@ -1,0 +1,4 @@
+interface:
+  display_name: "Autogrid"
+  short_description: "Run AutoGrid5 meshing with explicit or stage-selected TRB templates"
+  default_prompt: "Generate and run an AutoGrid5 batch meshing command from a geomTurbo file, output IGG path, and either a TRB template or compressor stage count."

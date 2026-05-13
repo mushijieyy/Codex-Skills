@@ -1,0 +1,7 @@
+interface:
+  display_name: "ANSYS CFX Automation V3"
+  short_description: "Automate audited CFX edits and DEF export"
+  default_prompt: "Use $ansys-cfx-automation-v3 to modify ANSYS CFX .cfx cases with official command-line tools, audit CFX readbacks and physics messages, repair recoverable CCL issues, export the final CCL, generate DEF files only after validation, and clean temporary files."
+
+policy:
+  allow_implicit_invocation: true
